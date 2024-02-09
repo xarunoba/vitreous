@@ -16,12 +16,12 @@ An opinionated starter template for Nuxt 3.
 ## Checklist
 Make sure to do these tasks to update the project's info in accordance to your needs.
 
-[ ] Change name in `package.json`.
-[ ] Change author name in `LICENSE`.
-[ ] Change SEO and other metadata in `app.vue`.
-[ ] Change favicons, browserconfig, and site.webmanifest in `public` (I recommend using [RealFaviconGenerator](https://realfavicongenerator.net/))
-[ ] Cleanup the `README.md` file and remove pages/layouts.
-[ ] Customize the dependabot according to your needs in `dependabot.yml` and `dependabot-auto-merge.yml`.
+- [ ] Change name in `package.json`.
+- [ ] Change author name in `LICENSE`.
+- [ ] Change SEO and other metadata in `app.vue`.
+- [ ] Change favicons, browserconfig, and site.webmanifest in `public` (I recommend using [RealFaviconGenerator](https://realfavicongenerator.net/))
+- [ ] Cleanup the `README.md` file and remove pages/layouts.
+- [ ] Customize the dependabot according to your needs in `dependabot.yml` and `dependabot-auto-merge.yml`.
 
 ## Clone Repository
 
@@ -51,6 +51,7 @@ pnpm install
 If you still haven't initialized Git, make sure to setup `simple-git-hooks`:
 
 ```bash
+git init
 pnpm setup:simple-git-hooks
 ```
 
