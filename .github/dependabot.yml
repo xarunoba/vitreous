@@ -7,4 +7,4 @@ updates:
     commit-message:
       prefix: '⬆️ '
       # prefix: 'chore: '
-    target-branch: develop
+    target-branch: master
