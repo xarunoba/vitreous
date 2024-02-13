@@ -9,19 +9,20 @@ An opinionated starter template for Nuxt 3.
     * `antfu/eslint-config`
     * `azat-io/eslint-plugin-perfectionist`
     * `francoismassart/eslint-plugin-tailwindcss`
-* Dependabot auto-merge for minor and patch updates.
-* `simple-git-hooks` and `lint-staged` for pre-commit lint fixing.
-* VSCode ESLint Auto-Fix
+* Dependabot Auto-merge for `minor` and `patch` updates
+* `simple-git-hooks` and `lint-staged` for pre-commit linting
+* VSCode ESLint Auto-fix
 
 ## Checklist
 Make sure to do these tasks to update the project's info in accordance to your needs.
 
-- [ ] Change name in `package.json`.
-- [ ] Change author name in `LICENSE`.
-- [ ] Change SEO and other metadata in `app.vue`.
+- [ ] Change name in `package.json`
+- [ ] Change author name in `LICENSE`
+- [ ] Change SEO and other metadata in `app.vue`
 - [ ] Change favicons, browserconfig, and site.webmanifest in `public` (I recommend using [RealFaviconGenerator](https://realfavicongenerator.net/))
-- [ ] Cleanup the `README.md` file and remove pages/layouts.
-- [ ] Customize the dependabot according to your needs in `dependabot.yml` and `dependabot-auto-merge.yml`.
+- [ ] Cleanup the `README.md` file
+- [ ] Remove placeholder `pages` and `layouts`
+- [ ] Customize the dependabot according to your needs in `dependabot.yml` and `dependabot-auto-merge.yml` (Change `target-branch` to `develop`, `prefix` to `"chore: "`, etc.)
 
 ## Clone Repository
 
@@ -42,17 +43,11 @@ pnpm install
 
 ## Setup
 
-Make sure to install the dependencies:
-
-```bash
-pnpm install
-```
-
-If you still haven't initialized Git, make sure to setup `simple-git-hooks`:
+Setup Git (if not yet initialized) and install the dependencies:
 
 ```bash
 git init
-pnpm setup:simple-git-hooks
+pnpm install
 ```
 
 ## Development Server
