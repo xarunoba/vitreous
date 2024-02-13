@@ -34,7 +34,7 @@ Make sure to do these tasks to update the project's info in accordance to your n
 If you prefer to do it manually with the a blank Git History:
 
 ```
-pnpm dlx giget@latest gh:Xarunoba/vitreous
+pnpm dlx giget@latest gh:Xarunoba/vitreous#master my-project
 cd Xarunoba-vitreous
 git init
 pnpm install
