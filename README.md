@@ -35,7 +35,7 @@ If you prefer to do it manually with the a blank Git History:
 
 ```
 pnpm dlx giget@latest gh:Xarunoba/vitreous#master my-project
-cd Xarunoba-vitreous
+cd my-project
 git init
 pnpm install
 ```
