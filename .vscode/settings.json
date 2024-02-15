@@ -39,5 +39,8 @@
     "jsonc",
     "yaml",
     "toml"
-  ]
+  ],
+
+  // Tailwind CSS custom data (Unknown at rule @apply css(unknownAtRules) fix)
+  "css.customData": [".vscode/tailwind.json"]
 }
