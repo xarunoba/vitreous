@@ -35,9 +35,9 @@ Make sure to do these tasks to update the project's info in accordance to your n
 If you prefer to do it manually with the a blank Git History:
 
 ```
-pnpm dlx giget@latest gh:Xarunoba/vitreous#master my-project
+pnpm dlx giget@latest gh:Xarunoba/vitreous my-project
 cd my-project
-git init
+git init -b main
 pnpm install
 ```
 
@@ -46,7 +46,7 @@ pnpm install
 Setup Git (if not yet initialized) and install the dependencies:
 
 ```bash
-git init
+git init -b main
 pnpm install
 ```
 
