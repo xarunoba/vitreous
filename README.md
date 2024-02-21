@@ -1,5 +1,7 @@
 # Vitreous 👁️
 
+![Static Badge](https://img.shields.io/badge/Made_with-%E2%9D%A4%EF%B8%8F-red?style=for-the-badge) ![NPM License](https://img.shields.io/npm/l/%40xarunoba%2Fclai?style=for-the-badge)
+
 An opinionated starter template for Nuxt 3.
 
 * [Google Fonts](https://github.com/nuxt-modules/google-fonts)
