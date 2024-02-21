@@ -1,10 +1,10 @@
 version: 2
 updates:
-  - package-ecosystem: pnpm
+  - package-ecosystem: npm
     directory: /
     schedule:
       interval: daily
     commit-message:
       prefix: '⬆️ '
       # prefix: 'chore: '
-    target-branch: develop
+    target-branch: master
