@@ -39,7 +39,7 @@ Make sure to do these tasks to update the project's info in accordance to your n
 If you prefer to do it manually with the a blank Git History:
 
 ```
-pnpm dlx giget@latest gh:Xarunoba/vitreous my-project
+pnpm dlx giget@latest gh:xarunoba/vitreous my-project
 cd my-project
 git init -b main
 pnpm install
