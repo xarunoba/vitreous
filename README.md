@@ -2,16 +2,18 @@
 
 An opinionated starter template for Nuxt 3.
 
-* Google Fonts
-* Nuxt Icon
-* Tailwind CSS
-* ESLint
-    * `antfu/eslint-config`
-    * `azat-io/eslint-plugin-perfectionist`
-    * `francoismassart/eslint-plugin-tailwindcss`
+* [Google Fonts](https://github.com/nuxt-modules/google-fonts)
+* [Nuxt Icon](https://github.com/nuxt-modules/icon)
+* [Tailwind CSS](https://github.com/nuxt-modules/tailwindcss)
+* [ESLint](https://github.com/eslint/eslint)
+    * [`antfu/eslint-config`](https://github.com/antfu/eslint-config)
+    * [`azat-io/eslint-plugin-perfectionist`](https://github.com/azat-io/eslint-plugin-perfectionist)
+    * [`francoismassart/eslint-plugin-tailwindcss`](https://github.com/francoismassart/eslint-plugin-tailwindcss)
 * Dependabot Auto-merge for `minor` and `patch` updates
-* `simple-git-hooks` and `lint-staged` for pre-commit linting
-* VSCode ESLint Auto-fix
+* [`simple-git-hooks`](https://github.com/toplenboren/simple-git-hooks) to integrate git hooks
+    * [`lint-staged`](https://github.com/okonet/lint-staged) for pre-commit linting
+    * [`@xarunoba/clai`](https://github.com/xarunoba/clai) for automatic installation of dependency updates during pull (post-merge)
+* [VSCode ESLint Auto-fix](https://github.com/antfu/eslint-config?tab=readme-ov-file#vs-code-support-auto-fix)
 
 ## Checklist
 Make sure to do these tasks to update the project's info in accordance to your needs.
