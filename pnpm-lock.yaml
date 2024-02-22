@@ -28,6 +28,9 @@ devDependencies:
   '@nuxtjs/tailwindcss':
     specifier: ^6.11.4
     version: 6.11.4
+  '@xarunoba/clai':
+    specifier: ^0.2.0
+    version: 0.2.0
   eslint:
     specifier: ^8.56.0
     version: 8.56.0
@@ -2352,6 +2355,11 @@ packages:
 
   /@vue/shared@3.4.19:
     resolution: {integrity: sha512-/KliRRHMF6LoiThEy+4c1Z4KB/gbPrGjWwJR+crg2otgrf/egKzRaCPvJ51S5oetgsgXLfc4Rm5ZgrKHZrtMSw==}
+
+  /@xarunoba/clai@0.2.0:
+    resolution: {integrity: sha512-Ng2oKKgN/RVUXg5MkTx8pdTcOEjqQN409EQwZzaW6ApzKrbzeGqo2DlJsHK2OogY3B2vWHRuLXlCRYymf16+bg==}
+    hasBin: true
+    dev: true
 
   /abbrev@1.1.1:
     resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==}
