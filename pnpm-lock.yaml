@@ -29,8 +29,8 @@ devDependencies:
     specifier: ^6.11.4
     version: 6.11.4
   '@xarunoba/clai':
-    specifier: ^0.2.0
-    version: 0.2.0
+    specifier: ^0.3.3
+    version: 0.3.3
   eslint:
     specifier: ^8.56.0
     version: 8.56.0
@@ -2356,9 +2356,11 @@ packages:
   /@vue/shared@3.4.19:
     resolution: {integrity: sha512-/KliRRHMF6LoiThEy+4c1Z4KB/gbPrGjWwJR+crg2otgrf/egKzRaCPvJ51S5oetgsgXLfc4Rm5ZgrKHZrtMSw==}
 
-  /@xarunoba/clai@0.2.0:
-    resolution: {integrity: sha512-Ng2oKKgN/RVUXg5MkTx8pdTcOEjqQN409EQwZzaW6ApzKrbzeGqo2DlJsHK2OogY3B2vWHRuLXlCRYymf16+bg==}
+  /@xarunoba/clai@0.3.3:
+    resolution: {integrity: sha512-1WUiguDNhFDLeo/thGAZtgAtccRdwIwbKEjtRqkNyiHYQe6YVVCwE+FopFn5QEUu3xNZaw70F6O0dh68N6KirQ==}
     hasBin: true
+    dependencies:
+      yargs: 17.7.2
     dev: true
 
   /abbrev@1.1.1:
