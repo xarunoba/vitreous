@@ -22,7 +22,6 @@
     "@eslint/eslintrc": "^3.0.1",
     "@nuxtjs/google-fonts": "^3.1.3",
     "@nuxtjs/tailwindcss": "^6.11.4",
-    "@xarunoba/clai": "^0.3.3",
     "eslint": "^8.56.0",
     "eslint-plugin-format": "^0.1.0",
     "eslint-plugin-tailwindcss": "^3.14.3",
@@ -32,7 +31,7 @@
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged",
-    "post-merge": "pnpm clai"
+    "post-merge": "pnpm dlx @xarunoba/clai"
   },
   "lint-staged": {
     "*": "eslint --fix"
