@@ -36,7 +36,7 @@ Make sure to do these tasks to update the project's info in accordance to your n
 
 ### Clone to Local
 
-If you prefer to do it manually with the a blank Git History:
+If you prefer to do it manually:
 
 ```
 pnpm dlx giget@latest gh:xarunoba/vitreous my-project
