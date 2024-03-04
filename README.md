@@ -32,7 +32,7 @@ Make sure to do these tasks to update the project's info in accordance to your n
 
 ### Github Template
 
-[Use this project as a template](https://github.com/Xarunoba/vitreous).
+[Use this project as a template](https://github.com/new?template_name=vitreous&template_owner=xarunoba).
 
 ### Clone to Local
 
