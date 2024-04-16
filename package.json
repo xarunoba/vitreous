@@ -13,7 +13,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "vue": "^3.4.22",
+    "vue": "^3.4.23",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
