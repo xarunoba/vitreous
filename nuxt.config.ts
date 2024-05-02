@@ -5,27 +5,18 @@ export default defineNuxtConfig({
   },
   devtools: {
     enabled: true,
-
     timeline: {
       enabled: true,
     },
   },
-  googleFonts: {
-    families: {
-      Inter: {
-        wght: [100, 200, 300, 400, 500, 600, 700, 800, 900],
-      },
-    },
-    preload: true,
-  },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', 'nuxt-icon'],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxt/fonts'],
   tailwindcss: {
     config: {
       theme: {
         extend: {
           fontFamily: {
             sans: [
-              '"Inter"',
+              '"Inter"', // Replace with your font name
               'system-ui',
               '-apple-system',
               'BlinkMacSystemFont',
@@ -44,6 +35,6 @@ export default defineNuxtConfig({
         },
       },
     },
-    cssPath: ['~/assets/css/tailwind.css', { injectPosition: 'last' }],
+    cssPath: ['~/assets/css/tailwind.css', { injectPosition: 'first' }],
   },
 })
