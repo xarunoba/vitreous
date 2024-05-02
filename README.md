@@ -4,7 +4,7 @@
 
 An opinionated starter template for Nuxt 3.
 
-* [Google Fonts](https://github.com/nuxt-modules/google-fonts)
+* [Nuxt Fonts](https://github.com/nuxt/fonts)
 * [Nuxt Icon](https://github.com/nuxt-modules/icon)
 * [Tailwind CSS](https://github.com/nuxt-modules/tailwindcss)
 * [ESLint](https://github.com/eslint/eslint)
@@ -38,9 +38,9 @@ Make sure to do these tasks to update the project's info in accordance to your n
 
 If you prefer to do it manually:
 
-```
-pnpm dlx giget@latest gh:xarunoba/vitreous my-project
-cd my-project
+```bash
+pnpm dlx giget@latest gh:xarunoba/vitreous <project-name>
+cd <project-name>
 git init -b main
 pnpm install
 ```
