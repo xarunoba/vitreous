@@ -27,7 +27,7 @@ useHead({
     { content: '#2d89ef', name: 'msapplication-TileColor' },
     { content: '#ffffff', name: 'theme-color' },
   ],
-  titleTemplate: (titleChunk) => {
+  titleTemplate: (titleChunk?: string) => {
     return titleChunk ? `${titleChunk} - Vitreous` : 'Vitreous'
   },
 })
