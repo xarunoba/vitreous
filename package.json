@@ -31,7 +31,7 @@
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged",
-    "post-merge": "pnpm dlx @xarunoba/clai"
+    "post-merge": "pnpm dlx @xarunoba/clai -c"
   },
   "lint-staged": {
     "*": "eslint --fix"
