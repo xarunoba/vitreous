@@ -9,7 +9,6 @@ An opinionated starter template for Nuxt 3.
 * [Tailwind CSS](https://github.com/nuxt-modules/tailwindcss)
 * [ESLint](https://github.com/eslint/eslint)
     * [`antfu/eslint-config`](https://github.com/antfu/eslint-config)
-    * [`azat-io/eslint-plugin-perfectionist`](https://github.com/azat-io/eslint-plugin-perfectionist)
     * [`francoismassart/eslint-plugin-tailwindcss`](https://github.com/francoismassart/eslint-plugin-tailwindcss)
 * Dependabot Auto-merge for `minor` and `patch` updates
 * [`simple-git-hooks`](https://github.com/toplenboren/simple-git-hooks) to integrate git hooks
