@@ -23,7 +23,7 @@
     "@nuxtjs/tailwindcss": "^6.12.1",
     "eslint": "^8.57.0",
     "eslint-plugin-format": "^0.1.2",
-    "eslint-plugin-tailwindcss": "^3.17.4",
+    "eslint-plugin-tailwindcss": "^3.17.5",
     "lint-staged": "^15.2.10",
     "nuxt": "^3.13.2",
     "nuxt-icon": "^0.6.10",
